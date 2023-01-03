@@ -10,7 +10,7 @@ int check_cycle(listint_t *list)
 {
 	listint_t *current, *check;
 
-	if (list == NULL || list->next == NULL)<F9>
+	if (list == NULL || list->next == NULL)
 		return (0);
 	current = list;
 	check = current->next;
